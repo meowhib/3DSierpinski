@@ -9,4 +9,23 @@ canvas {
 div {
   color: white;
   position: absolute;
+  left: 20px; top: 20px;
+  background-color: #333333;
+  padding: 20px;
+  border-radius: 6px;
+  opacity: 0.5;
+  transition: .2s;
+}
+
+div:hover {
+  opacity: 1;
+}
+
+input {
+  margin-bottom: 10px;
+}
+
+#subtr {
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
