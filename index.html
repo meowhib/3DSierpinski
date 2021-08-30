@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <title>Projecting</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div>
+      <label for="x">Rotate z:</label><br>
+      <input id="x" type="range" min=-3.14 max=3.14 step="0.005" value=0><br>
+
+      <label for="x">Rotate y:</label><br>
+      <input id="y" type="range" min=-3.14 max=3.14 step="0.005" value=0><br>
+
+      <label for="x">Rotate x:</label><br>
+      <input id="z" type="range" min=-3.14 max=3.14 step="0.005" value=0><br>
+
+      <label for="subtr">Sub pyramids:<br>(Note: Increasing this number above 4 might burn your computer)</label><br>
+      <input id="subtr" type="number" min=1 max=4 value=2><br>
+
+      <label for="fill">Fill pyramids?</label>
+      <input id="fill" type="checkbox" checked><br>
+    </div>
+    <canvas></canvas>
+    <script src="engine.js"></script>
+  </body>
+</html>

@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+}
+
+canvas {
+  background-color: #212121;
+}
+
+div {
+  color: white;
+  position: absolute;
+}
